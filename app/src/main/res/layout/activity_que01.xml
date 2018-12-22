@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Que01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/empt3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/empt4"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/linedesign" />
+
+        <TextView
+            android:id="@+id/empt5"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:id="@+id/empt7"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#00000000" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="fill_horizontal"
+            android:hint="여기에 입력하세요." />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttondesign2"
+            android:onClick="saveQueOne"
+            android:text="저장"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="end"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

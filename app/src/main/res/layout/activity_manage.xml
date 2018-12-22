@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Manage">
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button1_1"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="성장과정"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:onClick="goToQue01"/>
+
+            <TextView
+                android:id="@+id/empt1"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button1_2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="지원동기"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:onClick="goToQue02"/>
+
+            <TextView
+                android:id="@+id/empt2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.1"/>
+
+            <Button
+                android:id="@+id/button1_3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="프로젝트"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:onClick="goToQue03"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button2_1"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="성공경험"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:onClick="goToQue04"/>
+
+            <TextView
+                android:id="@+id/empt3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button2_2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="입사후포부"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:onClick="goToQue05"/>
+
+            <TextView
+                android:id="@+id/empt4"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.1"/>
+
+            <Button
+                android:id="@+id/button2_3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="가치관"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:onClick="goToQue06"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button3_1"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="성격장단점"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:onClick="goToQue07"/>
+
+            <TextView
+                android:id="@+id/empt5"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/button3_2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="도전적실행"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:onClick="goToQue08"/>
+
+            <TextView
+                android:id="@+id/empt6"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.1"/>
+
+            <Button
+                android:id="@+id/button3_3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="소통과협력"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:onClick="goToQue09"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

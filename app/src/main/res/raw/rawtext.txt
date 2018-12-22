@@ -1,0 +1,9 @@
+﻿NAVER#IT#컴퓨터#2018년 12월 21일#@drawable/naver
+KAKAO#IT#컴퓨터#2018년 12월 22일#@drawable/kakao
+배달의민족#IT#컴퓨터#2019년 01월 22일#@drawable/baemin
+쿠팡#영업, 마케팅#경영, 경제#2019-02-02#@drawable/coupang
+KT#IT#컴퓨터#2019-01-22#@drawable/kt
+DAUM#IT, 마케팅#컴퓨터, 경영, 디자인#2019-01-30#drawable/daum
+대한항공#서비스#영어영문#2019-03-22#@drawable/koreanair
+삼성#IT#컴퓨터#2018-10-29#@drawable/samsung
+LG#IT#컴퓨터#2018-11-24#@drawable/lg
